@@ -79,13 +79,14 @@ return array;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-return array.pop();
+array.pop();
+return array;
 
  
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-return  array.slice(0,2);
+return  array.slice(-1);
 }
 
 
